@@ -1,13 +1,12 @@
 {
     "name": "@404coder/introduction",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "404coder Personal introduction",
     "scripts": {
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\"",
         "lint": "tslint -p tsconfig.json",
         "patch": "npm run build && npm version patch && npm --registry https://registry.npmjs.org/ publish"
-
     },
     "repository": {
         "type": "git",
