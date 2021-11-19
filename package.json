@@ -1,6 +1,6 @@
 {
     "name": "@404coder/introduction",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "404coder Personal introduction",
     "scripts": {
         "build": "tsc",
