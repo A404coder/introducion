@@ -5,7 +5,9 @@
     "scripts": {
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\"",
-        "lint": "tslint -p tsconfig.json"
+        "lint": "tslint -p tsconfig.json",
+        "patch": "npm run build && npm version patch && npm --registry https://registry.npmjs.org/ publish",
+        "publish": "npm run build && npm --registry https://registry.npmjs.org/ publish"
     },
     "repository": {
         "type": "git",
