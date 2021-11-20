@@ -7,7 +7,8 @@
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\"",
         "lint": "tslint -p tsconfig.json",
-        "patch": "npm run build && npm version patch && npm --registry https://registry.npmjs.org/ publish"
+        "patch": "npm run build && npm version patch && npm --registry https://registry.npmjs.org/ publish",
+        "major-publish": "npm run build && npm version major && npm --registry https://registry.npmjs.org/ publish"
     },
     "repository": {
         "type": "git",
