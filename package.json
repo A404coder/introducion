@@ -1,6 +1,6 @@
 {
     "name": "@404coder/introduction",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "description": "404coder Personal introduction",
     "main": "./dist/index.js",
     "scripts": {
