@@ -2,6 +2,7 @@
     "name": "@404coder/introduction",
     "version": "1.0.3",
     "description": "404coder Personal introduction",
+    "main": "./dist/index.js",
     "scripts": {
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\"",
