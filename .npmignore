@@ -1,13 +1,4 @@
 src
-test
-idl
-coverage
-.vscode
-.nyc_output
 tslint.json
 tsconfig.json
-mocha.cover.opts
-mocha.opts
-graphene
-publishHelper.ts
-example
+.prettierrc
